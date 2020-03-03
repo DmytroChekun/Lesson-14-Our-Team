@@ -73,14 +73,6 @@
   margin: 0 auto;
 }
 
-.resume .resume__content .angle-left {
-  color: #ffcc00;
-  position: absolute;
-  font-size: 35px;
-  left: 200px;
-  top: 450px;
-}
-
 .resume .resume__content .resume__photo-section {
   width: 582px;
   -webkit-box-sizing: border-box;
@@ -88,6 +80,14 @@
   padding-top: 115px;
   padding-left: 80px;
   position: relative;
+}
+
+.resume .resume__content .resume__photo-section .angle-left {
+  color: #ffcc00;
+  position: absolute;
+  font-size: 35px;
+  left: 25px;
+  top: 305px;
 }
 
 .resume .resume__content .resume__photo-section .photo-box {
